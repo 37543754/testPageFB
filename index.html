@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div class="fb-send-to-messenger"
+    messenger_app_id="828244808884567"
+    page_id="101050873095747"
+    ref="ADDITIONAL_USER_INFO"
+    color="blue"
+    size="large"
+    cta_text="SUBSCRIBE_IN_MESSENGER">
+</div>
+
+
+<script>
+window.fbAsyncInit = function() {
+    FB.init({
+        appId            : '828244808884567',
+        autoLogAppEvents : true,
+        xfbml            : true,
+        version          : 'v17.0'
+    });
+};
+</script>
+
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+</body>
+</html>
